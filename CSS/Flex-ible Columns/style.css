@@ -1,0 +1,33 @@
+.row {
+    display: flex;
+
+}
+
+.col{
+    width: 250px;
+    height: 30px;
+    background-color: violet;
+    margin: 10px 10px 10px 10px;
+    flex: 1;
+}
+
+.col-2{
+    background-color:#F08080;
+    margin: 10px 10px 10px 10px;
+    width: 250px;
+    height: 30px;
+    flex: 2;
+}
+
+.col-3{
+    background-color: #FFB6C1;
+    margin: 10px 10px 10px 10px;
+    width: 250px;
+    height: 30px;
+    flex: 3;
+}
+
+#long {
+    margin: 10px 10px 10px 10px;
+    flex: 4;
+}

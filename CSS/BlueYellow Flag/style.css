@@ -1,0 +1,62 @@
+.background{
+    background-color: yellow;
+    width: 1900px;
+    height: 1000px;
+}
+.blue1{
+    background-color: blue;
+    width: 700px;
+    height: 400px;
+    display:inline-block;
+    margin: 0px, 0px, 0px, 0px;
+    padding: 0px, 0px, 0px,0px;
+}
+.yellow1{
+    background-color: yellow;
+    width: 170px;
+    height: 400px;
+    display:inline-block;
+    margin: 0px, 0px, 0px, 0px;
+    padding: 0px, 0px, 0px,0px;
+}
+.blue2{
+    background-color: blue;
+    width: 1015px;
+    height: 400px;
+    display:inline-block;
+    margin: 0px, 0px, 0px, 0px;
+    padding: 0px, 0px, 0px,0px;
+}
+.yellow2{
+    background-color: yellow;
+    width: 1900px;
+    height: 100px;
+    display:inline-block;
+    margin: 0px, 0px, 0px, 0px;
+    padding: 0px, 0px, 0px,0px;
+}
+.blue3{
+    background-color: blue;
+    width: 700px;
+    height: 487px;
+    display:inline-block;
+    margin: 0px, 0px, 0px, 0px;
+    padding: 0px, 0px, 0px,0px;
+}
+.yellow3{
+    background-color: yellow;
+    width: 170px;
+    height: 487px;
+    display:inline-block;
+    margin: 0px, 0px, 0px, 0px;
+    padding: 0px, 0px, 0px,0px;
+}
+
+.blue4{
+    background-color: blue;
+    width: 1015px;
+    height: 487px;
+    display:inline-block;
+    margin: 0px, 0px, 0px, 0px;
+    padding: 0px, 0px, 0px,0px;
+}

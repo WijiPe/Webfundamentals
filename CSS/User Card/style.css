@@ -1,0 +1,48 @@
+.container {
+    width: 600px;
+    height: 400px;
+    background-color: beige;
+    display: flex;
+    border: 2px solid grey;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.line{
+    width: 600px;
+    height: 100px;
+    background-color: rgb(32, 202, 224);
+}
+
+#user {
+    width: 100px;
+    height: 100px;
+}
+
+.column {
+    flex-direction: column;
+    padding: 50px;
+    position: absolute;
+    font-family:cursive;
+}
+
+#marker{
+    width: 15px;
+    height: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 15px;
+}
+
+#gear{
+    width: 15px;
+    height: 15px;
+}

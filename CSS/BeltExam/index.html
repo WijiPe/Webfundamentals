@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="row">
+            <img id="logo" src="leaf.png" alt="Logo">
+            <h1>Easy Bay</h1>
+            <input type="search" id="search" name="search" placeholder="search for anything">
+            <h4>Sign In</h4>
+            <img class="cart" onclick="displayAlert('Your Cart is Empty')" src="-shopping-cart_90604.png" alt="cart icon">
+        </div>
+        <div class="row">
+            <h4>Aeonium</h4>
+            <h4>Aandormischus</h4>
+            <h4>Agave</h4>
+            <h4>Aloe</h4>
+            <h4>Anacapseros</h4>
+            <h4>Aristaloe</h4>
+            <h4>More...</h4>        
+        </div>
+
+    </nav>  
+        <div class="container1">
+            <h2>Your Source for Serious Succulent Specialities</h2>
+        </div>
+    <main>  
+        <div class="container2">
+            <div class="box1">
+                <h3>Discover succulent varieties one pot or rack at a time!</h3>
+                <div class="line2">
+                    <h3>Discover</h3>
+                    <img id="arrow" src="arrow-light.png" alt="arrow icon">
+                </div>
+            </div>
+            <img class="mainImg" id="SwichImg" src="succulents-2.jpg" alt="Succulent Picture"> 
+        </div>
+        <div class="container3">
+            <img id="main2Img" onmouseover="switchImp()" src="succulents-1.jpg" alt="Succulent Picture">
+            <div class="box2">
+                <h3>Soothing Aloe</h3>
+                <img id="arrow" src="arrow-light.png" alt="arrow icon">
+            </div>
+        </div>
+        <div class="container4">
+            <img id="bottomImg" src="aloe-s.jpg" alt="Aloe Picture">
+            <img id="bottomImg" src="cactus-s.jpg" alt="Cactus Picture">
+            <img id="bottomImg" src="sedum-s.jpg" alt="Sedum Picture">
+            <img id="bottomImg" src="sempervivum-s.jpg" alt="Sempervivum Picture">
+            <img id="bottomImg" src="aeonium-s.jpg" alt="Aeonium Picture">
+            <img id="bottomImg" src="aloe-m.jpg" alt="Aloe Picture">
+        </div>
+        <div id="Alert" class="container">
+            <div id="message">
+                <img src="alert-dark.png" alt="Alert Sign">
+                <p>This site makes use of third-party cookies, by clicking "I accept" you agree to terms outlined in our <u>cookie policy</u></p>
+                <button onclick="setActive(this)">I Accept</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

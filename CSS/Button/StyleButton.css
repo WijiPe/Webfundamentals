@@ -1,0 +1,27 @@
+button {
+    width: auto;
+    height: 25px;
+}
+
+#blue {
+    color: cyan;
+    border-radius: 25px;
+    border-color: cyan;
+    font-weight: bold;
+    width: auto;
+    height: 30px;
+}
+
+#round {
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(62, 198, 216);
+    border-color: rgb(62, 198, 216);
+}
+
+#bold {
+    color: white;
+    background-color: blue;
+    box-shadow: 5px 1px 1px black;
+
+}
